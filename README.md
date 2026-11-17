@@ -1,14 +1,14 @@
 # blanco-clases-objetos
 # Control de Inventario - TecnoPunto
 
-## Datos del presentante
-* **Nombre:** Britney Blanco
-* **Matrícula:** 2025-3111
+## Datos de los presentantes
+* **Nombre y matricula:** Britney Blanco 2025-3111, Julio Sosa 2023-3904 y Adonis Alburquerque 2025-3296
+
 * **Asignatura:** Programación Básica
 * **Profesor:** Gamalier Reyes del Carmen
 
 ## Descripción del programa
-Desarrolle Aplicación de consola en C# para gestionar el inventario de la tienda **TecnoPunto**. El programa modela la entidad `Producto` Para lograrlo, diseñé la clase Producto aplicando encapsulamiento mediante campos privados y propiedades públicas con validaciones en sus bloques `set`, además de una propiedad de solo lectura que calcula automáticamente el valor total de cada artículo en existencia.
+Desarrollamos una aplicación de consola en C# para gestionar el inventario de la tienda **TecnoPunto**. El programa modela la entidad `Producto` Para lograrlo, diseñamos la clase Producto aplicando encapsulamiento mediante campos privados y propiedades públicas con validaciones en sus bloques `set`, además de una propiedad de solo lectura que calcula automáticamente el valor total de cada artículo en existencia.
 
 ## Datos de entrada
 Por cada uno de los 3 productos registrados, el usuario ingresa por teclado:
@@ -18,12 +18,12 @@ Por cada uno de los 3 productos registrados, el usuario ingresa por teclado:
 * **Cantidad (`int`):** Cantidad disponible en inventario (debe ser mayor o igual a `0`).
 
 ## Datos que procesa
-**Validación de integridad:** Verifico tanto en los bloques `set` de las propiedades como en los bucles de entrada en `Main` que el nombre contenga texto, el precio sea mayor que `0` y la cantidad sea mayor o igual a `0`, pidiendo nuevamente el dato si hay algún error sin que el programa se cierre.
-* **Cálculo de valor en existencia:** Multiplico el `Precio` por la `Cantidad` dentro de la propiedad de solo lectura `ValorTotal`.
+**Validación de integridad:** Verificamos tanto en los bloques `set` de las propiedades como en los bucles de entrada en `Main` que el nombre contenga texto, el precio sea mayor que `0` y la cantidad sea mayor o igual a `0`, pidiendo nuevamente el dato si hay algún error sin que el programa se cierre.
+* **Cálculo de valor en existencia:** Se multiplica el `Precio` por la `Cantidad` dentro de la propiedad de solo lectura `ValorTotal`.
 
   
 ## Datos de salida
-Una vez que termino de registrar los 3 productos, muestro en la consola la información completa de cada objeto mediante el método `MostrarInfo()`:
+Una vez que termina de registrar los 3 productos, muestra en la consola la información completa de cada objeto mediante el método `MostrarInfo()`:
 * Código del producto
 * Nombre del producto
 * Precio unitario
